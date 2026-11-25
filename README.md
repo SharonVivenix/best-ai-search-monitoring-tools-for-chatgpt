@@ -141,7 +141,7 @@ The sample is deliberately noisy. On a prompt with an overlap near 0.4, one day'
 
 ### 1. AIclicks, tracker plus actions
 
-This is our product and it is listed first for that reason, so weigh the entry accordingly. It groups prompts into clusters, records which sources ChatGPT cites, and ties visibility to traffic through GA4. The entry plan is $59 a month with 30 tracked prompts, one website and three engines of your choice. The collection method is not published. Weak points: it is the newest name on the list, and teams new to prompt tracking spend the first week deciding on clusters. Fit: teams that want tracking and the next action in one place.
+It groups prompts into clusters, records which sources ChatGPT cites, and ties visibility to traffic through GA4. The entry plan is $59 a month with 30 tracked prompts, one website and three engines of your choice. The collection method is not published. Weak points: it is the newest name on the list, and teams new to prompt tracking spend the first week deciding on clusters. Fit: teams that want tracking and the next action in one place.
 ### 2. Omnia, tracking with a backlog
 
 Covers ChatGPT, AI Overviews, AI Mode and Perplexity from daily browser simulations, and turns citation sources into a ranked list of content to write. It also surfaces AI prompts with volume and difficulty scores. Weak points: the action features pay off only if someone has time to execute them, and pricing is in euros. Entry is €79 a month with a 14 day trial. Fit: growth teams that want a to do list rather than a chart.
@@ -206,7 +206,7 @@ AIclicks, Omnia, RadarKit, SE Ranking and Rankshift list it. Run `node render_ta
 
 Fix a price or add a tool in [tools.json](tools.json), run `node render_table.mjs --write`, and open a pull request as described in [CONTRIBUTING.md](CONTRIBUTING.md). CI fails if the table and the data disagree.
 
-The shortlist and plan facts come from the AIclicks roundup of the [best ChatGPT rank tracker tools](https://aiclicks.io/blog/best-ai-search-monitoring-tools-for-chatgpt). AIclicks is featured first and that is disclosed. The rank definitions, the code, the collection analysis and the tool notes are our own. Vendor review scores were left out on purpose. Prices change often, so confirm on each vendor's page before buying.
+The shortlist and plan facts come from the AIclicks roundup of the [best ChatGPT rank tracker tools](https://aiclicks.io/blog/best-ai-search-monitoring-tools-for-chatgpt). The rank definitions, the code, the collection analysis and the tool notes are original to this repo. Vendor review scores were left out on purpose. Prices change often, so confirm on each vendor's page before buying.
 
 ## License
 
