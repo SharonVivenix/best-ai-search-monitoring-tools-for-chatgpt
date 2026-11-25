@@ -1,0 +1,7 @@
+[
+  { "name": "Fernlight", "aliases": [], "domains": ["fernlight.example"] },
+  { "name": "Northwind Metrics", "aliases": ["Northwind"], "domains": ["northwindmetrics.example"] },
+  { "name": "Quillstack", "aliases": [], "domains": ["quillstack.example"] },
+  { "name": "Brightpost", "aliases": [], "domains": ["brightpost.example"] },
+  { "name": "Orbit Ledger", "aliases": ["OrbitLedger"], "domains": ["orbitledger.example"] }
+]
