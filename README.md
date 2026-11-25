@@ -61,7 +61,7 @@ Matching is whole word and case insensitive, so `Alphabet` never counts as `Alph
 
 ## Comparison
 
-Entry plan facts only, from the AIclicks roundup of the best ChatGPT rank trackers (live page checked October 2026). `node render_table.mjs --check` fails when this table and `tools.json` disagree.
+Entry plan facts only, checked against vendor pages in October 2026. `node render_table.mjs --check` fails when this table and `tools.json` disagree.
 
 <!-- TABLE:START -->
 | Tool | Best for | Engines | Collection | Data access | Entry price | Trial |
@@ -91,7 +91,7 @@ Most vendors in the table do not publish their method. Treat that as a missing f
 
 ## Best AI Mode rank tracker, by what it can read
 
-Google AI Mode is a second answer surface with its own sources, so a ChatGPT tracker that stops at one engine leaves half the picture out. For the wider field beyond ChatGPT, see the roundup of [AEO tracking tools](https://aiclicks.io/blog/best-aeo-tracking-tools). Five of the nine tools list AI Mode as a tracked engine: AIclicks, Omnia, RadarKit, SE Ranking and Rankshift. Filter the table to just those with one command.
+Google AI Mode is a second answer surface with its own sources, so a ChatGPT tracker that stops at one engine leaves half the picture out. For the wider field beyond ChatGPT, see the comparison of [AEO tracking tools](https://aiclicks.io/blog/best-aeo-tracking-tools). Five of the nine tools list AI Mode as a tracked engine: AIclicks, Omnia, RadarKit, SE Ranking and Rankshift. Filter the table to just those with one command.
 
 ```bash
 node render_table.mjs --ai-mode
@@ -201,11 +201,11 @@ The parsing is the small part and it is in `src/rank.mjs`. The hard part is coll
 
 AIclicks, Omnia, RadarKit, SE Ranking and Rankshift list it. Run `node render_table.mjs --ai-mode` for the current set.
 
-## Contributing and credits
+## Contributing
 
 Fix a price or add a tool in [tools.json](tools.json), run `node render_table.mjs --write`, and open a pull request as described in [CONTRIBUTING.md](CONTRIBUTING.md). CI fails if the table and the data disagree.
 
-The shortlist and plan facts come from the AIclicks roundup of the [best ChatGPT rank tracker tools](https://aiclicks.io/blog/best-ai-search-monitoring-tools-for-chatgpt). The rank definitions, the code, the collection analysis and the tool notes are original to this repo. Vendor review scores were left out on purpose. Prices change often, so confirm on each vendor's page before buying.
+The rank definitions, the code, the collection analysis and the tool notes are original to this repo. Vendor review scores were left out on purpose. Prices change often, so confirm on each vendor's page before buying.
 
 ## License
 
